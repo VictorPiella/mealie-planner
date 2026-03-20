@@ -1,0 +1,10 @@
+services:
+  planner:
+    build:
+      context: .
+      args:
+        VITE_MEALIE_URL: ${VITE_MEALIE_URL:-http://localhost:3000}
+    env_file: .env
+    ports:
+      - "4173:4173"
+    restart: unless-stopped
