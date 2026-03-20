@@ -18,16 +18,16 @@ const UNS = (id: string) =>
 const MOCK_DISHES: Dish[] = [
   { id: 'd1',  slug: 'grilled-salmon',   name: 'Grilled Salmon',      description: 'Atlantic salmon fillet with lemon herb butter',        category: 'Fish',       tags: ['gluten-free', 'high-protein'], imageUrl: UNS('1467003909585-2f8a72700288') },
   { id: 'd2',  slug: 'beef-bourguignon', name: 'Beef Bourguignon',    description: 'Slow-braised beef in red wine with mushrooms',          category: 'Meat',       tags: ['hearty', 'classic'],           imageUrl: UNS('1534080564583-6be75777b70a') },
-  { id: 'd3',  slug: 'ratatouille',      name: 'Ratatouille',         description: 'Provençal vegetable stew with tomatoes and herbs',      category: 'Vegetarian', tags: ['vegan', 'gluten-free'],        imageUrl: UNS('1572453800999-441281aac6cc') },
+  { id: 'd3',  slug: 'ratatouille',      name: 'Ratatouille',         description: 'Provençal vegetable stew with tomatoes and herbs',      category: 'Vegetarian', tags: ['vegan', 'gluten-free'],        imageUrl: UNS('1572453800999-e8d2d1589b7c') },
   { id: 'd4',  slug: 'chicken-caesar',   name: 'Chicken Caesar',      description: 'Grilled chicken, romaine, parmesan, croutons',         category: 'Poultry',    tags: ['classic'],                     imageUrl: UNS('1546793665-c74683f339c1') },
   { id: 'd5',  slug: 'pasta-carbonara',  name: 'Pasta Carbonara',     description: 'Spaghetti with guanciale, egg, pecorino and pepper',   category: 'Pasta',      tags: ['italian', 'rich'],             imageUrl: UNS('1621996346565-e3dbc646d9a9') },
   { id: 'd6',  slug: 'mushroom-risotto', name: 'Mushroom Risotto',    description: 'Arborio rice with wild mushrooms and truffle oil',      category: 'Vegetarian', tags: ['gluten-free', 'umami'],        imageUrl: UNS('1476124369491-e7addf5db371') },
-  { id: 'd7',  slug: 'duck-confit',      name: 'Duck Confit',         description: 'Slow-cooked duck leg with cherry gastrique',            category: 'Poultry',    tags: ['french', 'rich'],              imageUrl: UNS('1532550884684-129a6a1eb8b6') },
+  { id: 'd7',  slug: 'duck-confit',      name: 'Duck Confit',         description: 'Slow-cooked duck leg with cherry gastrique',            category: 'Poultry',    tags: ['french', 'rich'],              imageUrl: UNS('1500817487388-039e623edc21') },
   { id: 'd8',  slug: 'lobster-bisque',   name: 'Lobster Bisque',      description: 'Creamy bisque with cognac and fresh lobster',           category: 'Fish',       tags: ['seafood', 'premium'],          imageUrl: UNS('1547592166-23ac45744acd') },
   { id: 'd9',  slug: 'lamb-tagine',      name: 'Lamb Tagine',         description: 'Moroccan spiced lamb with apricots and almonds',        category: 'Meat',       tags: ['spiced', 'hearty'],            imageUrl: UNS('1565299624946-b28f40a0ae38') },
   { id: 'd10', slug: 'vegetable-curry',  name: 'Vegetable Curry',     description: 'Coconut milk curry with seasonal vegetables',           category: 'Vegetarian', tags: ['vegan', 'spiced'],             imageUrl: UNS('1565557623262-b51c2513a641') },
   { id: 'd11', slug: 'tuna-tartare',     name: 'Tuna Tartare',        description: 'Fresh yellowfin tuna with avocado and sesame',         category: 'Fish',       tags: ['raw', 'light'],                imageUrl: UNS('1580822184713-fc5400e7fe10') },
-  { id: 'd12', slug: 'beef-tenderloin',  name: 'Beef Tenderloin',     description: 'Pan-seared fillet with truffle jus and potato gratin', category: 'Meat',       tags: ['premium', 'classic'],          imageUrl: UNS('1544025162-d76538b4bfaf') },
+  { id: 'd12', slug: 'beef-tenderloin',  name: 'Beef Tenderloin',     description: 'Pan-seared fillet with truffle jus and potato gratin', category: 'Meat',       tags: ['premium', 'classic'],          imageUrl: UNS('1538169204832-1b461add30a5') },
 ];
 
 // ─── Mealie API types ────────────────────────────────────────────────────────
